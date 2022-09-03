@@ -4,4 +4,5 @@
 
 int sum_values (int x,int y);
 
+int mult (int ,int);
 #endif // GIT_H_INCLUDED
