@@ -1,10 +1,13 @@
 # depslib dependency file v1.0
-1662231693 source:d:\codeblocks\git tool\git.c
+1662235990 source:d:\codeblocks\git tool\git.c
+	<stdio.h>
+	<stdlib.h>
+	"GIT.h"
 
 1662232061 source:d:\codeblocks\git tool\main.c
 	<stdio.h>
 	<stdlib.h>
 	"GIT.h"
 
-1662232147 d:\codeblocks\git tool\git.h
+1662236002 d:\codeblocks\git tool\git.h
 

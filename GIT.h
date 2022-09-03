@@ -2,7 +2,13 @@
 #define GIT_H_INCLUDED
 
 
-int sum_values (int x,int y);
+typedef enum {
+ERROR_OK,
+ERROR_NOK
+}error_state;
 
-int mult (int ,int);
+error_state mult (int x,int y,int * value);
+
+
+error_state sum_values (int x,int y,int * value );
 #endif // GIT_H_INCLUDED

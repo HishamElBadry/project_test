@@ -1,9 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
 
-int mult (int x,int y){
-return (x*y);
+#include "GIT.h"
+error_state mult (int x,int y,int *value){
+
+if (value != NULL){
+
+*value = (x*y);
+
+return ERROR_OK;
+
+    }else return ERROR_NOK;
+
 };
 
 
-int sum_values (int x,int y){
-return (x+y);
+error_state sum_values (int x,int y,int * value ){
+    if (value !=NULL){
+
+*value = (x+y);
+
+return ERROR_OK;
+
+    }else return ERROR_NOK;
+
 }
